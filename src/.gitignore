@@ -1,0 +1,11 @@
+# Build artifacts
+**/bin/
+**/obj/
+
+# Local sensitive config (never commit)
+APIForms.Api/appsettings.Local.json
+APIForms.Api/appsettings.*.local.json
+APIForms.Api/appsettings.Development.json
+
+# User secrets folder (if used)
+**/secrets.json
