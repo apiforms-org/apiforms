@@ -1,0 +1,13 @@
+# Backend sensitive config
+src/APIForms.Api/appsettings.Local.json
+src/APIForms.Api/appsettings.*.local.json
+src/APIForms.Api/appsettings.Development.json
+
+# Frontend local environment overrides
+apiforms-web/src/app/core/config/env.local.ts
+
+# Common build outputs
+src/**/bin/
+src/**/obj/
+apiforms-web/node_modules/
+apiforms-web/dist/
